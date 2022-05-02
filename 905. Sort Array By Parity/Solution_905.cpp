@@ -3,12 +3,12 @@ public:
     vector<int> sortArrayByParity(vector<int>& nums) {
         vector<int> a, b;
         
-        for(int i = 0; i < nums.size(); i++){
-            if(nums[i] % 2){
-                b.push_back(nums[i]);
+        for( auto &iter : nums){
+            if(iter % 2){
+                b.push_back(iter);
             }
             else{
-                a.push_back(nums[i]);
+                a.push_back(iter);
             }
         }
         
