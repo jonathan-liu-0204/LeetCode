@@ -5,12 +5,9 @@ public:
         string longest = "";
         
         for(int i = 0; i < dictionary.size(); i++){
-            // cout << dictionary[i] << "  " << dictionary[i].size() << endl;
             
             int count = 0;
-                        
-            cout << "currently at: " << dictionary[i] << endl;
-            
+                                    
             int index1 = 0;
             int index2 = 0;
             
