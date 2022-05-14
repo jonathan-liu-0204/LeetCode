@@ -30,3 +30,4 @@ Note that 'A' and 'a' are treated as two different characters.
 - s consists of uppercase and lowercase English letters and digits.
 
 [Solution Reference](https://hackmd.io/@Zero871015/LeetCode-451)
+[map<> Tutorial](https://mropengate.blogspot.com/2015/12/cc-map-stl.html)
