@@ -28,3 +28,5 @@ Note that 'A' and 'a' are treated as two different characters.
 ## Constraints:
 - 1 <= s.length <= 5 * 10^5
 - s consists of uppercase and lowercase English letters and digits.
+
+[Solution Reference](https://hackmd.io/@Zero871015/LeetCode-451)
