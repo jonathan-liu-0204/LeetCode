@@ -25,3 +25,6 @@ public:
         return count;
     }
 };
+
+// Runtime: 729 ms. Runtime beats 23.79 % of cpp submissions.
+// Memory Usage: 89.9 MB. Memory usage beats 21.42 % of cpp submissions.
