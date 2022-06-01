@@ -1,0 +1,19 @@
+class Solution {
+public:
+    vector<int> runningSum(vector<int>& nums) {
+        
+        int sum = 0;
+        int n = 0;
+        
+        
+        for(int i = 0; i < nums.size(); i++){
+            sum = sum + nums[i];
+            nums[i] = sum;
+        }
+        
+        return nums;
+    }
+};
+
+// Your runtime beats 59.62 % of cpp submissions.
+
