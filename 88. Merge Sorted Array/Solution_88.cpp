@@ -8,18 +8,15 @@ public:
         while(j < n){
             
             i = 0;
-            cout << "j: " << j << "   ";
             
             while(i < m+n){
                 if(i == m+j){
                     nums1.insert(nums1.begin() + i, nums2[j]);
-                    cout << "position to insert: " << i << " " << "insert value:  " << nums2[j] << endl;
                     nums1.pop_back();
                     break;
                 }
                 else if(nums2[j] <= nums1[i]){
                     nums1.insert(nums1.begin() + i, nums2[j]);
-                    cout << "position to insert: " << i << " " << "insert value:  " << nums2[j] << endl;
                     nums1.pop_back();
                     break;
                 }
