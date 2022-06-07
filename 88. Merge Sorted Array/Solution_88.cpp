@@ -27,3 +27,6 @@ public:
         }
     }
 };
+
+// Runtime: 4 ms, faster than 49.07% of C++ online submissions for Merge Sorted Array.
+// Memory Usage: 9.2 MB, less than 30.68% of C++ online submissions for Merge Sorted Array.
