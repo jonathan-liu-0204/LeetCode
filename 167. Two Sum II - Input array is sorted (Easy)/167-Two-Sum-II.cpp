@@ -1,6 +1,3 @@
-#include <bits/stdc++.h>
-using namespace std;
-
 class Solution {
 public:
     vector<int> twoSum(vector<int>& numbers, int target) {
@@ -30,3 +27,6 @@ public:
         return vector<int>{};
     }
 };
+
+// Runtime: 16 ms, faster than 67.85% of C++ online submissions for Two Sum II - Input Array Is Sorted.
+// Memory Usage: 15.6 MB, less than 44.00% of C++ online submissions for Two Sum II - Input Array Is Sorted.
